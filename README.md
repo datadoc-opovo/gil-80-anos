@@ -2,7 +2,7 @@
 
 Este repositório contém as análises e apurações feitas para a reportagem em alusão ao aniversário de 80 anos de Gilberto Gil, comemorado em 26 de junho de 2022. Produzida em parceria entre a Central de Jornalismo de Dados do O POVO e o Vida & Arte, a matéria foi publicada no O POVO Online e no O POVO+.
 
-![[Imagens] Nuvem de palavras.png](Gilberto%20Gil%20-%2080%20anos%20a08f11f6ed204b6d842aa15dc518be06/Gilberto_Gil_-_80_anos_Nuvem_de_palavras.png)
+![Gilberto_Gil_-_80_anos_Nuvem_de_palavras.png](Imagens/Gilberto_Gil_-_80_anos_Nuvem_de_palavras.png)
 
 ## ****Fonte e coleta de dados****
 
@@ -54,7 +54,7 @@ O Top 10 de músicas de Gilberto Gil ou com participação do artista conta com 
 
 O Spotify dispõe de algumas relacionadas a cada música, como “acústica”, “dançabilidade”, “energia” etc, criadas pela própria plataforma. É possível coletar esses dados e observar se esses indicadores estão mais presentes ou ausentes nas faixas. Eles vão de 0 a 1. Quanto mais próximo de 0, menos presente o indicador tende a estar, e quanto mais próximo de 1, maior a probabilidade de a faixa conter aquela característica. Coletamos esses dados, primeiro, para as músicas presentes no Top 10.
 
-![[Imagens] Top 10 - Características das músicas.png](Gilberto%20Gil%20-%2080%20anos%20a08f11f6ed204b6d842aa15dc518be06/Gilberto_Gil_80_anos_Top_10_-_Caractersticas_das_msicas.png)
+![Gilberto_Gil_80_anos_Top_10_-_Caractersticas_das_msicas.png](Imagens/Gilberto_Gil_80_anos_Top_10_-_Caractersticas_das_msicas.png)
 
 *A explicação dos indicadores pode ser conferida no seguinte link: [Web API Reference | Spotify for Developers](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features)*
 
@@ -62,7 +62,7 @@ Pode-se perceber que as características mais presentes nas 10 músicas de mais 
 
 Na visualização a seguir, constam os dados das 987 músicas cujos títulos não se repetem.
 
-![[Imagens] Características de 987 músicas de Gilberto Gil disponíveis no Spotify.png](Gilberto%20Gil%20-%2080%20anos%20a08f11f6ed204b6d842aa15dc518be06/Gilberto_Gil_80_anos_Caractersticas_de_987_msicas_de_Gilberto_Gil_disponveis_no_Spotify.png)
+![Gilberto_Gil_80_anos_Caractersticas_de_987_msicas_de_Gilberto_Gil_disponveis_no_Spotify.png](Imagens/Gilberto_Gil_80_anos_Caractersticas_de_987_msicas_de_Gilberto_Gil_disponveis_no_Spotify.png)
 
 Ao reunir as 987 músicas, percebe-se novamente o que foi visto no Top 10. Principalmente em relação a energia e acústica, há uma distribuição mais uniforme das músicas em relação a outras características como instrumentalidade, que se destaca pela concentração em valores próximos a 0 e pela presença mais clara de valores destoantes (caso da faixa ‘Ponta de Areia (vinheta)’, de 45 segundos). Mais da metade das músicas, por outro lado, tendem a ser mais “dançantes” e “positivas”, segundo os indicadores “dançabilidade” e “valência”.
 
